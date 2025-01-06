@@ -1,0 +1,15 @@
+<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <!-- Icon Section -->
+  <g>
+    <text x="20%" y="50%" text-anchor="middle" font-size="48" fill="#000" dominant-baseline="middle">🛠️</text>
+  </g>
+  <!-- Text Section -->
+  <g>
+    <text x="40%" y="40%" text-anchor="start" font-size="32" fill="#F96614" font-family="Arial, sans-serif" font-weight="bold">
+      Byte
+    </text>
+    <text x="40%" y="70%" text-anchor="start" font-size="32" fill="#F96614" font-family="Arial, sans-serif" font-weight="bold">
+      Board
+    </text>
+  </g>
+</svg>
