@@ -769,10 +769,12 @@ header,
 }
 
 @keyframes stretchAndReturn {
+
     0%,
     100% {
         transform: scaleX(1);
     }
+
     50% {
         transform: scaleX(1.5);
     }
@@ -963,12 +965,15 @@ header,
     0% {
         background-color: rgba(var(--wdtSecondaryColorRgb), .1);
     }
+
     35% {
         background-color: rgba(var(--wdtSecondaryColorRgb), .35);
     }
+
     70% {
         background-color: rgba(var(--wdtSecondaryColorRgb), .5);
     }
+
     100% {
         background-color: rgba(var(--wdtSecondaryColorRgb), .1);
     }
@@ -1149,6 +1154,7 @@ textarea {
     0% {
         transform: translateX(0%);
     }
+
     100% {
         transform: translateX(100%);
     }
@@ -1158,6 +1164,7 @@ textarea {
     0% {
         transform: translateX(100%);
     }
+
     100% {
         transform: translateX(0%);
     }
