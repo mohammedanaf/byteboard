@@ -1,6 +1,5 @@
 // Progress bar
-
-document.addEventListener('scroll', function() {
+document.addEventListener('scroll', function () {
 
     // Calculate the scroll progress
     const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
@@ -12,13 +11,12 @@ document.addEventListener('scroll', function() {
 });
 
 // Navigation bar
-
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     var navbar = document.getElementById("navbar");
     var landingSection = document.querySelector(".landing-section");
     var sticky = landingSection.offsetTop;
 
-    window.onscroll = function() {
+    window.onscroll = function () {
         if (window.pageYOffset >= sticky) {
             navbar.classList.add("sticky");
         } else {
@@ -28,37 +26,33 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 // Contact button
-
-document.getElementById("contactButton").addEventListener("click", function() {
+document.getElementById("contactButton").addEventListener("click", function () {
     window.location.href = "contact.html";
 });
 
 // Products button
-
-document.getElementById("productsButton").addEventListener("click", function() {
+document.getElementById("productsButton").addEventListener("click", function () {
     window.location.href = "products.html";
 });
 
 // Services button
-
 function redirectToServices() {
     window.location.href = "services.html";
 };
 
-document.getElementById("servicesButton1").addEventListener("click", function() {
+document.getElementById("servicesButton1").addEventListener("click", function () {
     window.location.href = "services.html";
 });
 
 // Testimonials slider
-
-$(document).ready(function() {
-    $(".next").on("click", function() {
+$(document).ready(function () {
+    $(".next").on("click", function () {
         $(".testimonial-slider").animate({
             scrollLeft: "+=275%"
         }, "medium");
     });
 
-    $(".prev").on("click", function() {
+    $(".prev").on("click", function () {
         $(".testimonial-slider").animate({
             scrollLeft: "-=275%"
         }, "medium");
@@ -68,13 +62,12 @@ $(document).ready(function() {
 // Registering the service worker
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('/service-worker.js')
-        .then((registration) => {
-          console.log('ServiceWorker registration successful with scope: ', registration.scope);
-        })
-        .catch((error) => {
-          console.log('ServiceWorker registration failed: ', error);
-        });
+        navigator.serviceWorker.register('/service-worker.js')
+            .then((registration) => {
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            })
+            .catch((error) => {
+                console.log('ServiceWorker registration failed: ', error);
+            });
     });
-  }
-  
+}
