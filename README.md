@@ -21,7 +21,7 @@ git clone https://github.com/mohammedanaf/byteboard.git
 
 2. Navigate into the project directory:
 ```bash
-cd readspace
+cd byteboard
 ```
 
 3. Open the `index.html` file in your browser: You can simply double-click the `index.html` file or open it through your browser's "Open File" option.
