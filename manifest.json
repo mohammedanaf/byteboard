@@ -1,0 +1,22 @@
+{
+    "name": "ByteBoard: Your Gateway to Hardware Innovation",
+    "short_name": "ByteBoard",
+    "description": "Byteboard is a meticulously designed multipage website that highlights hardware services and products with clarity and precision. It provides a platform to explore innovative hardware solutions and insights. Featuring a clean, modern layout and intuitive navigation, it offers an engaging and seamless user experience.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#FDF3E8",
+    "theme_color": "#F96614",
+    "icons": [
+        {
+            "src": "/assets/favicon.ico",
+            "sizes": "any",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "/assets/images/logo.svg",
+            "sizes": "any",
+            "type": "image/svg+xml"
+        }
+    ]
+  }
+  
